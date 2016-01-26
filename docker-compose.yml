@@ -1,0 +1,7 @@
+convoy-vfs:
+  image: sundeer/convoy2
+  volumes-from:
+    - all-volumes
+  labels:
+    io.rancher.os.scope: system
+    io.rancher.os.before: docker
